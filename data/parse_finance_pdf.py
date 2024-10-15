@@ -12,7 +12,7 @@ from langchain.chains import RetrievalQA
 import joblib
 import os
 import nest_asyncio  # noqa: E402
-LLAMA_PARSE_API_KEY = os.getenv("LLAMA_PARSE_API_KEY","llx-8wLMkTKZi69kynJ5JcEnaUvVB5pEouhyzpweQaZc6KrnC0El")
+LLAMA_PARSE_API_KEY = os.getenv("LLAMA_PARSE_API_KEY")
 nest_asyncio.apply()
 
 def main():

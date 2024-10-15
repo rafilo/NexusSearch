@@ -15,9 +15,7 @@ NexusSearch is a powerful search engine designed to support workers in companies
 - Administrators can manage file browsing permissions for different employees.
 
 ## Installation
-
-1. cd to chatbot-rag-app folder: `cd chatbot-rag-app`
-2. follow the steps below to install both frontend and backend
+1. follow the steps below to install both frontend and backend
 
 ## Installing and connecting to Elasticsearch
 
