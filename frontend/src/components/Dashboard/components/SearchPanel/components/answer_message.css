@@ -1,0 +1,36 @@
+.download_link {
+    background: #1e1f20;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.download_link:hover{
+    background-color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #7e7e7e;
+}
+
+th {
+    background-color: #dddede;
+    font-weight: normal;
+}
+
+tr:hover {
+    background-color: #efefef;
+}

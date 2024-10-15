@@ -1,0 +1,12 @@
+Based on the context from the provided documents. Generate three possible follow up questions user may ask based on their question at the end of answer.
+If the user's question involves generating charts, you need to ignore the chart keywords, such as chart, pie chart, bar chart, etc.
+Each follow up question should not longer than 20 words.
+Don't add further information.
+
+Question: {{ question }}
+Answer: {{ answer }}
+{% for doc in docs -%}
+Documents: {{ doc }}
+{% endfor -%}
+
+Your Response:
